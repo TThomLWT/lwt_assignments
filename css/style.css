@@ -1,0 +1,18 @@
+body {
+	background-color: #ffffff;
+	background-image: url('../img/yellow_green_gray_graph_pattern.png');
+	font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+}
+
+h4 {
+	font-family: Bahnschrift, sans-serif;
+}
+
+code {
+	font-family: 'Cascadia Mono', 'Cascadia Code', 'Courier New', Courier, monospace;
+	color: #282828;
+}
+
+blockquote {
+	font-family: 'FOT-PopHappiness Std EB', Forte, 'Matura MT Script Capitals', 'Segoe Script', Cambria, 'Times New Roman', Times, serif;
+}

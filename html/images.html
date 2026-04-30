@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial scale=1.0">
-	<title>Images</title>
+	<title>Working with Images</title>
 	<link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Find extremely high resolution image -->
-	<!-- Something about transparency -->
-	<!-- Creating an Image Map at https://www.image-map.net -->
-	<pre></pre>
-	<img src="../img/icy_water.webp" alt="Snow, arctic, mountainous, landforms, winter, landform, ice, arcti_" usemap="image-map" width="80%" height="auto">
-	<map name="image-map">
-	    <area target="" alt="Snow, arctic, mountainous, landforms, winter, landform, ice, arcti_" href="https://pxhere.com/en/photo/1366464" coords="726,481,562,652" shape="rect">
-	</map><div></div>
-	<p>_</p>
+	<h1>Working with Images</h1>
 	<p>​</p>
+	<p>Click on either of the two people to see other <strong>cool</strong> places!</p>
+	<figure>
+		<picture>
+			<source srcset="../img/icy_water.webp" type="image/webp"/>
+			<img src="../img/icy_water.webp" srcset="https://c.pxhere.com/photos/41/c5/clouds_cold_ice_iceberg_mountain_people_snow_winter-1366464.jpg!d" alt="snow, arctic, mountainous landforms, winter, landform, ice, arctic ocean, natural environment, weather, mountain, geological phenomenon, tundra, freezing, ice cap, ocean, mountain range, landscape, sea, plateau, glacier, sea ice, Free Images In PxHere" usemap="#icy_water">
+		</picture>
+		<figcaption>Exploring an Icy Sea, from <strong><a href="https://pxhere.com/en/photo/1366464?utm_content=clipUser&utm_medium=referral&utm_source=pxhere">PxHere</a></strong></figcaption>
+	</figure>
+	<map name="icy_water">
+		<area title="Let’s see more water!" href="https://pxhere.com/en/photo/1148715" coords="678,385,702,459" shape="rect">
+		<area title="Let’s see more land!" href="https://pxhere.com/en/photo/1175605" coords="719,387,737,458" shape="rect">
+	</map>
+	<p>​</p>
+	<a href="../index.html">Home</a>
 </body>
 </html>
