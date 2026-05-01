@@ -1,3 +1,15 @@
+@import url('https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2');
+
+@font-face {
+	font-family: Tucker;
+	src: url('../font/Tucker.ttf');
+}
+
+@font-face {
+	font-family: 'Lato Extended';
+	src: url('https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2');
+}
+
 body {
 	background-color: #ffffff;
 	background-image: url('../img/yellow_green_gray_graph_pattern.png');
@@ -10,9 +22,27 @@ h4 {
 
 code {
 	font-family: 'Cascadia Mono', 'Cascadia Code', 'Courier New', Courier, monospace;
-	color: #282828;
 }
-
+	
 blockquote {
 	font-family: 'FOT-PopHappiness Std EB', Forte, 'Matura MT Script Capitals', 'Segoe Script', Cambria, 'Times New Roman', Times, serif;
+}
+
+div.gray {
+	background-color: rgba(128, 128, 128, 0.4);
+	width: fit-content;
+	border-radius: 4px;
+}
+
+.handwrite {
+	font-family: Tucker, 'Segoe UI', Calibri, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+}
+
+.lato {
+	font-family: 'Lato Extended';
+	font-style: normal;
+	font-weight: normal;
 }
