@@ -28,10 +28,29 @@ blockquote {
 	font-family: 'FOT-PopHappiness Std EB', Forte, 'Matura MT Script Capitals', 'Segoe Script', Cambria, 'Times New Roman', Times, serif;
 }
 
-div.gray {
+div.codeline {
 	background-color: rgba(128, 128, 128, 0.4);
 	width: fit-content;
 	border-radius: 4px;
+}
+
+h2.recipe {
+	font-size: 28px;
+}
+
+h3.recipe {
+	font-size: 22px;
+}
+
+div.grid {
+	display: grid;
+	grid-template-columns: 59% 39%;
+	overflow: hidden;
+}
+
+div.grid img {
+	height: 330px;
+	width: auto;
 }
 
 .handwrite {
@@ -45,4 +64,9 @@ div.gray {
 	font-family: 'Lato Extended';
 	font-style: normal;
 	font-weight: normal;
+}
+
+.recipe {
+	font-family: Garamond, Cambria, 'Times New Roman', Times, serif;
+	font-size: 18px;
 }
